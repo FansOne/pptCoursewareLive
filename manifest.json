@@ -77,14 +77,14 @@
     },
     "h5" : {
         "template" : "h5.html",
-        "publicPath" : "https://static.xuefu.com/xfwx/static/ppt",
+        "publicPath" : "https://xxx.com/xxx",
         "filenameHashing" : false,
         "devServer" : {
             "port" : 8080, //端口号
             "disableHostCheck" : true,
             "proxy" : {
                 "/api" : {
-                    "target" : "https://sit-wx.xuefu.com/api", //目标接口域名
+                    "target" : "https://xxx.com/api", //目标接口域名
                     "changeOrigin" : true, //是否跨域
                     "secure" : true, // 设置支持https协议的代理
                     "pathRewrite" : {
@@ -105,7 +105,7 @@
             "mode" : "hash",
             "base" : ""
         },
-        "domain" : "https://sit-wx.xuefu.com"
+        "domain" : "https://xxx.com"
     }
 }
 //端口号

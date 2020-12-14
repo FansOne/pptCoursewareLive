@@ -2,8 +2,8 @@
   (function() {
   	"use strict";
 
-  	var MyWxApi = "https://sit-wx.xuefu.com/api/wx/mp/jsapi/signature"; //JsSDK签名
-  	var MyWxDown = "https://sit-wx.xuefu.com/api/wx/mp/jsapi/mediaDownload"; //素材下载
+  	var MyWxApi = "https://xxx.com/api/wx/mp/jsapi/signature"; //JsSDK签名
+  	var MyWxDown = "https://xxx.com/api/wx/mp/jsapi/mediaDownload"; //素材下载
   
 
   	//Install Begin
