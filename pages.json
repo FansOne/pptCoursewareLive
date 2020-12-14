@@ -1,0 +1,31 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/teacher/index",
+			"style":{
+				"navigationBarTitleText": "学府课堂-教师端"
+			}
+		},
+		{
+			"path": "pages/student/index",
+			"style":{
+				"navigationBarTitleText": "学府课堂-学生端"
+			}
+		},{
+			"path": "pages/poster/index",
+			"style":{
+				"navigationBarTitleText": "picker"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "学府课堂",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle":"custom",
+		"app-plus": {
+		    "softinputNavBar": "none"
+		}
+	}
+}
